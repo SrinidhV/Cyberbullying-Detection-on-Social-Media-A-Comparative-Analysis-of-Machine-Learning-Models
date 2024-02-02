@@ -1,32 +1,25 @@
-# Cyberbullying Detection on Social Media
-## Introduction
-This project focuses on detecting and preventing cyberbullying on Twitter using Supervised Binary Classification Machine Learning algorithms. The aim is to provide a model that assists in mitigating the increasing incidents of cyberbullying on social media platforms.
-## Technologies Used
-- **Programming Language**: Python
-- **Data Analysis Libraries**: 
-  - Pandas: For data manipulation and analysis.
-  - NumPy: For numerical operations.
-- **Machine Learning Library**: 
-  - Scikit-learn: For implementing machine learning algorithms.
-- **Data Visualization Libraries**: 
-  - Matplotlib: For creating a variety of statistical graphics.
-  - Seaborn: For making attractive and informative statistical visualizations.
-- **Feature Extraction**: 
-  - CountVectorizer: For converting text data into numerical data.
-- **Machine Learning Algorithms Used**:
-  - Logistic Regression (LR)
-  - Light Gradient Boosting Machine (LGBM)
-  - Stochastic Gradient Descent (SGD)
-  - Random Forest (RF)
-  - AdaBoost (ADB)
-  - Naive Bayes (NB)
-  - Support Vector Machine (SVM)
+# Cyberbully Detection on Social Media with Machine Learning
 
-## Dataset
-The model was evaluated using a dataset of 37,373 unique tweets from Twitter, categorized into offensive and non-offensive content.
-## Project Structure
-- **Data Preprocessing**: Techniques for transforming raw data into a suitable format for model training.
-- **Feature Extraction**: Using CountVectorizer for converting textual data into a numerical format.
-- **Model Training and Evaluation**: Implementing various machine learning classifiers and evaluating their performance.
-## Results
-Provide a summary of the results you achieved, including any metrics or insights gained from the model's performance.
+## Introduction
+In the digital age, social media has become a central platform for communication and interaction. However, it has also given rise to challenges like cyberbullying, affecting the well-being of individuals. This project demonstrates my ability to tackle such pressing social issues using data science and machine learning, showcasing a model designed to effectively classify and identify cyberbullying behavior across social media posts.
+
+## Project Highlights
+- **Real-World Application**: Developed an NLP-based machine learning model addressing the critical issue of cyberbullying, demonstrating my commitment to leveraging technology for social good.
+- **Technical Expertise**: Utilized Python, pandas, NumPy, and scikit-learn, alongside the vaderSentiment library for sentiment analysis, showcasing my proficiency in essential data science tools and libraries.
+- **Innovative Approach**: Employed advanced text preprocessing techniques, feature extraction with CountVectorizer, and sentiment analysis to enhance model accuracy and effectiveness.
+- **Model Evaluation**: Rigorously tested and evaluated using key metrics (accuracy, precision, recall, F1 score), underscoring my thorough understanding of machine learning model assessment.
+
+## Core Technologies
+- Python
+- pandas, NumPy, Matplotlib, seaborn for data analysis and visualization
+- scikit-learn for machine learning
+- vaderSentiment for sentiment analysis
+
+
+
+## About Me
+As a data scientist passionate about applying machine learning to solve real-world problems, I developed this project to showcase my technical skills and my dedication to social impact. I am eager to bring my expertise in data analysis, machine learning, and problem-solving to a dynamic team working on challenging and meaningful projects.
+
+## Contact
+For more information on my projects or to discuss potential opportunities, please reach out to me at [vudityalas@gmail.com].
+
