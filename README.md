@@ -10,7 +10,7 @@ Social media can be a double-edged sword. While it connects people, it also give
 ---
 
 ## **What’s in the Dataset?**
-The dataset I worked with is the MNIST which contains 20,000 tweets, each labeled as **cyberbullying (1)** or **non-cyberbullying (0)**. It includes:
+The dataset I worked with is from MNIST and contains 20,000 tweets, each labeled as **cyberbullying (1)** or **non-cyberbullying (0)**. It includes:
 - **Raw tweet text**
 - **Annotation labels** (binary)
 - Features like **negative, neutral, and positive sentiment scores**, calculated using VADER Sentiment Analysis.
@@ -61,28 +61,15 @@ Here’s how the models performed:
 ---
 
 ## **Visual Insights**
-Here’s where things get interesting—I visualized the model comparisons and insights to make the findings easy to understand.
+All the visualizations have been combined into a single image to make it easier to navigate and analyze. The combined visualizations include:
+- **Accuracy Comparison**
+- **Precision Comparison**
+- **Recall Comparison**
+- **F1 Score Comparison**
+- **Confusion Matrix**
+- **Class Distribution**
 
-### **Model Performance Comparison**
-Each bar chart shows how the models stack up in terms of accuracy, precision, recall, and F1-score. Notice how Random Forest consistently outperformed the others!
-
-![Accuracy Comparison](![Accuracy_comparision](https://github.com/user-attachments/assets/dbf3279d-13c4-4c9b-9021-9be981932158)
-)
-![Precision Comparison]()
-![Recall Comparison]()
-![F1 Comparison]()
-
-### **Confusion Matrix**
-For **Random Forest**, here’s how it performed:
-- Almost perfect classification of tweets!
-- Very few false positives or negatives.
-
-![Confusion Matrix](path/to/confusion_matrix.png)
-
-### **Class Distribution**
-The dataset itself was well-balanced, with a nearly even split of cyberbullying and non-cyberbullying tweets.
-
-![Class Distribution](path/to/class_distribution.png)
+[**Click here to view the combined visualizations**](https://github.com/SrinidhV/Cyberbullying-Detection-on-Social-Media-A-Comparative-Analysis-of-Machine-Learning-Models/blob/main/Entire_viz.png)
 
 ---
 
@@ -100,10 +87,3 @@ This project isn’t over! Here’s what I’m planning next:
 3. **Deep Learning**: Experiment with LSTM or transformers for even better accuracy.
 
 ---
-
-## **How You Can Use This**
-If you’d like to replicate or expand on this project, here’s how to get started:
-
-### **Step 1**: Clone the Repository
-```bash
-git clone https://github.com/yourusername/cyberbullying-detection.git
